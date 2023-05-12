@@ -1,0 +1,222 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffefe7;
+  font-family: "IBM plex Snas", sans-serif;
+}
+
+nav {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  color: #7c6a0a;
+  margin: 0 auto;
+}
+nav p {
+  font-size: 1.5em;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+  padding: 0px;
+}
+nav .icons button img {
+  width: 24px;
+  height: 24px;
+}
+
+article {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  color: #7c6a0a;
+}
+article .impact-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  gap: 25px;
+}
+article .impact-section h1 {
+  font-size: 3.4em;
+  margin: 0;
+  padding: 0;
+}
+article .impact-section p {
+  font-size: 1.5em;
+}
+article .impact-section button {
+  width: 12vw;
+  color: white;
+  height: 50px;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 35px;
+  background-color: #fa9500;
+}
+article .impact-section button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+article .image-section {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+article .image-section img {
+  border-radius: 19px;
+}
+
+section {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+section h2 {
+  color: #7c6a0a;
+  font-size: 1.5em;
+}
+section .healthcare, section .furniture {
+  padding-bottom: 60px;
+}
+section .healthcare h2, section .furniture h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .healthcare .card-section, section .furniture .card-section {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  row-gap: 80px;
+  flex-flow: row wrap;
+}
+section .healthcare .product-card, section .furniture .product-card,
+section .healthcare .product-card--hogar,
+section .furniture .product-card--hogar {
+  width: 17vw;
+  background-color: #ffdac6;
+  color: #7c6a0a;
+  padding: 0 20px 20px 20px;
+}
+section .healthcare .product-card .icons, section .furniture .product-card .icons,
+section .healthcare .product-card--hogar .icons,
+section .furniture .product-card--hogar .icons {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: flex-end;
+  color: #7c6a0a;
+}
+section .healthcare .product-card .icons svg, section .furniture .product-card .icons svg,
+section .healthcare .product-card--hogar .icons svg,
+section .furniture .product-card--hogar .icons svg {
+  padding: 10px 0;
+}
+section .healthcare .product-card .product-image, section .furniture .product-card .product-image,
+section .healthcare .product-card--hogar .product-image,
+section .furniture .product-card--hogar .product-image {
+  margin: 0 auto;
+}
+section .healthcare .product-card .product-image img, section .furniture .product-card .product-image img,
+section .healthcare .product-card--hogar .product-image img,
+section .furniture .product-card--hogar .product-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+section .furniture .product-card {
+  background-color: #babd8d;
+  color: white;
+}
+
+.about-us h2 {
+  font-weight: bold;
+  padding-bottom: 1.5em;
+}
+.about-us .mision-section {
+  display: flex;
+  padding: 30px;
+}
+.about-us .mision-section .earth, .about-us .mision-section .innovation {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  color: #fa9500;
+}
+.about-us .mision-section .earth img, .about-us .mision-section .innovation img {
+  object-fit: cover;
+}
+.about-us .mision-section .earth p, .about-us .mision-section .innovation p {
+  text-align: center;
+  font-size: 1.5em;
+}
+.gallery {
+  width: 95%;
+  margin: 0 auto;
+}
+.gallery h2 {
+  padding-bottom: 60px;
+}
+.gallery .gallery-image {
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.gallery .gallery-image img {
+  width: 30vw;
+  height: 45vh;
+  object-fit: cover;
+  object-position: 5px 35%;
+  border-radius: 16px;
+}
+.gallery .gallery-image img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.location {
+  width: 95%;
+  margin: 0 auto;
+  color: #E86424;
+}
+.location h2 {
+  padding: 60px 0 60px 0;
+}
+.location .map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.location .map img {
+  width: 100%;
+}
+.location h3,
+.location p {
+  font-size: 1.5em;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #fa9500;
+  color: white;
+  padding: 40px;
+}
+footer .social-media {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */
